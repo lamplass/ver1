@@ -23,11 +23,11 @@ namespace laba2_1
             char selection = Key.KeyChar;
             switch (selection)
             {
-                case '-':
+                case '*':
                     int x = a;
                     int y = b;
 
-                    int z = x - y;
+                    int z = x * y;
                     Console.WriteLine(z);
                     break;
 
