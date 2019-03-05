@@ -44,7 +44,15 @@ namespace laba2_1
                         break;
                     }
 
+                case '*':
+                    {
+                        int x = a;
+                        int y = b;
 
+                        int z = x * y;
+                        Console.WriteLine(z);
+                        break;
+                    }
             }
             Console.ReadKey();
         }
